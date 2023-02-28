@@ -15,8 +15,8 @@ bcrypt==4.0.1
 WTForms==3.0.1.
 INSTRUCTIUNI PENTRU RULARE:
 Pentru a rula aplicatia se va intra in folderul our_scheduler si se vor rula urmatoarele comenzi in terminal:
-sudo docker build -t scheduler .
-sudo docker run scheduler
+sudo docker build -t scheduler
+sudo docker run scheduler.
 Se va porni un server local pentru develompment pentru aplicatie (adresa se poate gasi in informatiile date de server la inceput: localhost:5000)
 Pentru a porni serviciul care verifica odata la un minut baza de date se vor rula urmatoarele comenzi 
 sudo docker build -t cronpy . -f Dockerfile.checkdb
