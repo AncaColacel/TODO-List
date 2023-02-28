@@ -12,7 +12,7 @@ Flask_PyMongo==2.3.0
 Flask_WTF==1.1.1
 pymongo==4.3.3
 bcrypt==4.0.1
-WTForms==3.0.1
+WTForms==3.0.1.
 INSTRUCTIUNI PENTRU RULARE:
 Pentru a rula aplicatia se va intra in folderul our_scheduler si se vor rula urmatoarele comenzi in terminal:
 sudo docker build -t scheduler .
